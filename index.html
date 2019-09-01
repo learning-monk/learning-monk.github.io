@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Learning Monk's website</title>
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!-- font awesome library for social media footer icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- my css code -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar code -->
+
+    <nav class="navbar navbar-expand-md bg-info navbar-dark fixed-top">
+      <!-- Brand -->
+      <a class="navbar-brand active" href="./index.html">Learning monk</a>
+      <!-- Toggler/collapsible button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+        aria-controls="collapsibleNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- navbar links -->
+      <div
+        class="collpase navbar-collapse justify-content-end"
+        id="collapsibleNavbar"
+      >
+        <ul class="navbar-nav nav-fill ml-auto">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link text-white">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="./portfolio.html" class="nav-link text-white">Portfolio</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="./blog.html" class="nav-link text-white">Blog</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link text-white">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- navbar code end -->
+    <!-- jumbotron for Intro -->
+    <header class="jumbotron" id="main-jumbotron">
+      <div class="container">
+        <div class="row row-bottom-margin">
+          <div class="col-12">
+            <h1 class="display-5 text-left" id="main-heading" style="margin-left: 20px">
+              Welcome to Learning monk
+            </h1>
+          </div>
+          <div class="col-5">
+            <p class="lead text-left" style="margin-left: 20px">
+              I built this website to share my knowledge and provide updates on
+              what I am learning currently and the projects I am working on.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+      <!-- Container for my portfolio -->
+    <div class="container"></div>
+      <div class="row">
+        <div class="col-12">
+          <!-- <h1 class="display-6 text-center">
+            My projects so far
+          </h1> -->
+        </div>
+        <div class="offset-sm-2 col-sm-8 offset-sm-2">
+          <p class="lead text-center" style="font-style: italic">
+            Here are few of my projects below. To see the complete list, please
+            check my portfolio page. If you would like to know more about these
+            projects or my work, please feel free to drop me an email and I will
+            get back to you as soon as possible.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- jumbotron code end -->
+
+    <!-- Adding Data Science projects container -->
+    <div class="container" id="DSProjects" style="margin-top: 100px">
+      <h4 class="datascienceprojects">Data Science projects</h4>
+      <hr class="mt-2 mb-5">
+      <div class="row text-center">
+        <div class="col-4">
+          <a href="https://github.com/learning-monk/DataScienceProjects/blob/master/Kaggle-World_Happiness.ipynb" target="_blank"><img class="img-fluid img-thumbnail" src="./images/worldhappiness.JPG" alt="WorldHappiness">Exploring World Happiness data</a>
+        </div>
+        <div class="col-4">
+          <a href="https://github.com/learning-monk/DataScienceProjects/blob/master/Project-UK%20Road%20Safety.ipynb" target="_blank"><img class="img-fluid img-thumbnail" src="./images/roadsafety.JPG" alt="RoadSafety">Exploring UK-Road Safety data</a>
+        </div>
+        <div class="col-4">
+          <a href="https://github.com/learning-monk/DataScienceProjects/blob/master/Project-HRLeavers.ipynb" target="_blank"><img class="img-fluid img-thumbnail" src="./images/employeeattrition.JPG" alt="HRLeavers">Exploring HR Leavers dataset</a>
+        </div>
+      </div>
+    </div>
+    <!-- Data Science projects container end -->
+
+    <!-- Web Development Projects Container -->
+    <div class="container" id="webDevProjects" style="margin-top: 100px">
+      <h4 class="WebDevelopmentprojects">Web Development projects</h4>
+      <hr class="mt-2 mb-5">
+      <div class="row text-center">
+        <div class="col-4">
+          <a href="https://github.com/learning-monk/FCC-ResponsiveWebDesignProjects/tree/master/FCC-Build_A_Tribute_Page" target="_blank"><img class="img-fluid img-thumbnail" src="./images/GertrudeElionResized.JPG" alt="TributePage">FCC Project - A Tribute Page</a>
+        </div>
+        <div class="col-4">
+          <a href="https://github.com/learning-monk/FCC-ResponsiveWebDesignProjects/tree/master/FCC-Build_A_Technical_Documentation_Page" target="_blank"><img class="img-fluid img-thumbnail" src="./images/scalalogoResized.JPG" alt="TechnicalDocumentation">FCC Project - A Technical Documentation Page</a>
+        </div>
+      </div>
+    </div>
+    <!-- Web Development Projects Container end-->
+
+    <!-- footer code -->
+    
+    <footer class="footer" style="margin-top: 100px">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 align-self-center">
+            <div class="text-center">
+              <a class="btn btn-social-icon btn-linkedin" href="https://in.linkedin.com/in/pratibha-ks-7194284b" target="_blank" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin fa-lg"></i></a>
+              <a class="btn btn-social-icon btn-github" href="https://github.com/learning-monk" target="_blank" data-toggle="tooltip" title="Github"><i class="fa fa-github fa-lg"></i></a>
+              <a class="btn btn-social-icon btn-stack-overflow" href="https://stackoverflow.com/users/3668839/ksp585" target="_blank" data-toggle="tooltip" title="Stackoverflow"><i class="fa fa-stack-overflow fa-lg"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer code end -->
+    <script src="main.js"></script>
+  </body>
+</html>

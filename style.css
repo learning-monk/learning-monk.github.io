@@ -1,0 +1,93 @@
+h1,
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-family: "Indie Flower", cursive !important; */
+  /* font-family: "Lobster", cursive !important; */
+  /* font-family: 'Dancing Script', cursive !important; */
+  /* font-family: "Pacifico", cursive !important; */
+  /* font-family: "Shadows Into Light", cursive !important; */
+  /* font-family: "Permanent Marker", cursive !important; */
+  /* font-family: "Caveat", cursive !important; */
+  padding-top: 20px;
+}
+
+#project-writeup {
+  padding-top: 0 px;
+}
+.navbar-nav > li {
+  /* float: left;
+  position: relative; */
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.navbar-dark .navbar-nav .nav-item > .active > a,
+.navbar-dark .navbar-nav .nav-item > .active > a:hover,
+.navbar-dark .navbar-nav .nav-item > .active > a:focus {
+  /* border-bottom: 5px solid red;
+  bottom: -10px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+  background-color: yellowgreen; */
+}
+
+#main-jumbotron {
+  /* background-color: #bdd1dd; */
+  /* background-image: url("https://cdn.tinybuddha.com/wp-content/uploads/2013/04/Green-Buddha.jpg"); */
+  background-image: url("./images/green-Buddha.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+.navbar-brand.active {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 35px;
+}
+
+.footer {
+  background-color: cornsilk;
+}
+
+.container > p {
+  width: auto;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+
+/* .jumbotron > h1 {
+  margin-top: 80px;
+} */
+
+/* This prevents collapsible navbar to hide content below */
+body {
+  padding-top: 80px;
+
+  /* this clips the overflowing elements which cause horizontal scroll */
+  overflow-x: hidden;
+}
+
+.tools > li {
+  font-size: 18px;
+}
+
+#main-heading {
+  font-family: "Dancing Script", cursive;
+  /* font-weight: bold; */
+}
+
+#contact-container {
+  background-color: cornflowerblue;
+  margin-top: 70px;
+  color: white;
+  height: 400px;
+  width: 700px;
+}
