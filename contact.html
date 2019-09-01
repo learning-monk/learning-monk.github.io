@@ -61,7 +61,7 @@
       >
         <ul class="navbar-nav nav-fill ml-auto">
           <li class="nav-item">
-            <a href="./index.html" class="nav-link active">Home</a>
+            <a href="./index.html" class="nav-link text-white">Home</a>
           </li>
           <li class="nav-item">
             <a href="./about.html" class="nav-link text-white">About</a>
@@ -69,11 +69,11 @@
           <li class="nav-item">
             <a href="./portfolio.html" class="nav-link text-white">Portfolio</a>
           </li>
-          <!-- <li class="nav-item">
-            <a href="./blog.html" class="nav-link text-white">Blog</a>
-          </li> -->
           <li class="nav-item">
-            <a href="./contact.html" class="nav-link text-white">Contact</a>
+            <a href="./blog.html" class="nav-link text-white">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link active page-on">Contact</a>
           </li>
         </ul>
       </div>
@@ -81,34 +81,81 @@
 
     <!-- navbar code end -->
 
-    <!-- form section -->
-    <div class="container-fluid rounded" id="contact-container">
-      <h2
-        class="display-4 text-center"
-        style="padding-top: 40px; padding-bottom: 60px"
-      >
-        Get in touch
-      </h2>
-
-      <form
-        action="https://formspree.io/learningmonk888@gmail.com"
-        method="POST"
-      >
-        <div class="form-group row">
-          <label for="name" class="col col-sm-2 col-form-label-lg">Name</label>
-          <div class="col col-sm-10">
-            <input
-              class="form-control rounded"
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Enter your name"
-            />
+    <!-- Contact form section -->
+    <div class="contact-form">
+      <div class="container rounded" id="contact-container">
+        <form
+          action="https://formspree.io/learningmonk888@gmail.com"
+          method="POST"
+        >
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <h1>Get in touch</h1>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 right">
+              <div class="form-group">
+                <input
+                  class="form-control rounded  form-control-lg"
+                  type="text"
+                  name="name"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control rounded  form-control-lg"
+                  type="email"
+                  name="_replyto"
+                  placeholder="Enter your email address"
+                />
+              </div>
+              <input
+                class="btn btn-secondary btn-block"
+                type="submit"
+                value="Send"
+              />
+            </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
 
+    <!-- footer code start -->
+    <footer class="footer" style="margin-top: 100px">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 align-self-center">
+            <div class="text-center">
+              <a
+                class="btn btn-social-icon btn-linkedin"
+                href="https://in.linkedin.com/in/pratibha-ks-7194284b"
+                target="_blank"
+                data-toggle="tooltip"
+                title="Linkedin"
+                ><i class="fa fa-linkedin fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-github"
+                href="https://github.com/learning-monk"
+                target="_blank"
+                data-toggle="tooltip"
+                title="Github"
+                ><i class="fa fa-github fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-stack-overflow"
+                href="https://stackoverflow.com/users/3668839/ksp585"
+                target="_blank"
+                data-toggle="tooltip"
+                title="Stackoverflow"
+                ><i class="fa fa-stack-overflow fa-lg"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer code end -->
     <script src="main.js"></script>
   </body>
 </html>

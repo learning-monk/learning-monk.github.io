@@ -1,3 +1,9 @@
+html,
+body {
+  /* position: relative; */
+  height: 100%;
+}
+
 h1,
 p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -21,24 +27,30 @@ p {
   padding-right: 18px;
 }
 
-.navbar-dark .navbar-nav .nav-item > .active > a,
-.navbar-dark .navbar-nav .nav-item > .active > a:hover,
-.navbar-dark .navbar-nav .nav-item > .active > a:focus {
-  /* border-bottom: 5px solid red;
-  bottom: -10px;
-  content: " ";
-  left: 0;
-  position: absolute;
-  right: 0;
-  background-color: yellowgreen; */
+.nav-link:hover {
+  background: #98afc7;
+}
+
+.navbar ul li a.page-on {
+  background: #98afc7;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  background-color: #afdcec !important;
 }
 
 #main-jumbotron {
   /* background-color: #bdd1dd; */
   /* background-image: url("https://cdn.tinybuddha.com/wp-content/uploads/2013/04/Green-Buddha.jpg"); */
   background-image: url("./images/green-Buddha.JPG");
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-position: center; */
   color: white;
 }
 
@@ -52,7 +64,12 @@ p {
 }
 
 .footer {
-  background-color: cornsilk;
+  background-color: #43bfc7;
+  position: relative;
+  margin-top: -80px; /* footer height */
+  height: 80px;
+  clear: both;
+  padding-top: 20px;
 }
 
 .container > p {
@@ -84,10 +101,33 @@ body {
   /* font-weight: bold; */
 }
 
-#contact-container {
+/* #contact-container {
   background-color: cornflowerblue;
-  margin-top: 70px;
+  margin-top: 50px;
+  margin-left: 70px;
   color: white;
-  height: 400px;
-  width: 700px;
+  height: 270px;
+  width: 800px;
+} */
+
+.contact-form {
+  margin: 6em 0;
+  position: relative;
+}
+
+.contact-form h1 {
+  padding: 1em 1px;
+  color: #347235;
+}
+.contact-form .right {
+  max-width: 500px;
+}
+.contact-form .right .btn-secondary {
+  background: #f97300;
+  color: #fff;
+  border: 0;
+}
+.contact-form .right .form-control::placeholder {
+  color: #888;
+  font-size: 14px;
 }
