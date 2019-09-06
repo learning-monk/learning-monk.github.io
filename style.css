@@ -92,7 +92,7 @@ p {
 
 /* This prevents collapsible navbar to hide content below */
 body {
-  padding-top: 80px;
+  padding-top: 120px;
 
   /* this clips the overflowing elements which cause horizontal scroll */
   overflow-x: hidden;

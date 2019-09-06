@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>About Learning Monk</title>
+    <title>My resume</title>
     <!-- google fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap"
       rel="stylesheet"
     />
     <!-- Latest compiled and minified CSS -->
@@ -20,6 +24,7 @@
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -32,7 +37,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- navbar code -->
+    <!-- navbar code starts here-->
     <nav class="navbar navbar-expand-md bg-info navbar-dark fixed-top">
       <!-- Brand -->
       <a class="navbar-brand active" href="./index.html"><img src="images/learning_monk_logo-resized.png">Learning monk</a>
@@ -55,7 +60,7 @@
             <a href="./index.html" class="nav-link active">Home</a>
           </li>
           <li class="nav-item">
-            <a href="./about.html" class="nav-link text-white page-on">About</a>
+            <a href="./about.html" class="nav-link text-white">About</a>
           </li>
           <li class="nav-item">
             <a href="./portfolio.html" class="nav-link text-white">Portfolio</a>
@@ -64,7 +69,7 @@
             <a href="./blog.html" class="nav-link text-white">Blog</a>
           </li>
           <li class="nav-item">
-            <a href="./resume.html" class="nav-link text-white">Resume</a>
+            <a href="./resume.html" class="nav-link text-white page-on">Resume</a>
           </li>
           <li class="nav-item">
             <a href="./contact.html" class="nav-link text-white">Contact</a>
@@ -74,73 +79,13 @@
     </nav>
     <!-- navbar code ends here -->
 
-    <div class="jumbotron" id="about">
-      <div class="row row-bottom-margin" style="margin-bottom: 30px">
-        <div class="col">
-          <h1 class="display-5 text-center">
-            About Me
-          </h1>
-        </div>
-        <div class="offset-sm-1 col-sm-10 offset-sm-1 my-auto">
-          <p class="lead text-center">
-            I am a <em>Data Visualization Engineer</em> who likes discovering
-            insights from data, a <em>web developer</em> who likes designing and
-            building websites, a <em>blockchain enthusiast</em> who is in the
-            process of exploring how this technology could be leveraged in real
-            life. I enjoy solving problems and upgrading myself with latest
-            tools and technologies. I have diverse interests in the fields of
-            Economics, Psychology, Geographical Information Systems, Sustainable
-            Development, Water conservation and this list keeps growing over
-            time. I like applying my knowledge cross domains to solve problems.
-          </p>
-        </div>
-      </div>
-      <div class="row row-bottom-margin" style="margin-bottom: 30px">
-        <div class="col">
-          <h1 class="display-5 text-center">
-            My toolkit
-          </h1>
-        </div>
-        <div class="offset-sm-1 col-sm-10 offset-sm-1 my-auto">
-          <p class="lead text-left">
-            I have experience working with the tools/technologies below and this
-            list keeps growing over time.
-          </p>
-          <ul class="tools">
-            <li>
-              <em>Data Visualization</em> with R, ggplot2, R-shiny, Spotfire,
-              Tableau (public), D3.js, matplotlib, bokeh, plotly
-            </li>
-            <br />
-            <li>
-              <em>Web Development</em> using HTML5, CSS3, JavaScript,
-              Bootstrap4, jQuery
-            </li>
-            <br />
-            <li>
-              <em>Databases</em> SQLite, PostgreSQL and use SQL for data
-              wrangling, exploration, filtering and manipulation.
-            </li>
-            <br />
-          </ul>
-        </div>
-      </div>
-      <div class="row row-bottom-margin" style="margin-bottom: 30px">
-        <div class="col">
-          <h1 class="display-5 text-center">
-            What do I like working on?
-          </h1>
-        </div>
-        <div class="offset-sm-1 col-sm-10 offset-sm-1 my-auto">
-          <p class="lead text-center">
-            I like working on data science related projects which invloves data
-            munging, cleaning, exploration and visualization. Also, web
-            development projects which involves designing and building websites.
-            Projects which involves writing content.
-          </p>
-        </div>
+    <!-- My resume infographic -->
+    <div class="jumbotron">
+      <div class="d-flex justify-content-center align-items-center container">
+        <img src="images/Pratibha_Resume_infographic.png" id="infographic" alt="resume infographic">
       </div>
     </div>
+
     <!-- footer code starts here -->
     <footer class="footer">
       <div class="container">
@@ -202,7 +147,6 @@
       </div>
     </div>
     <!-- copyright code end -->
-
     <script src="main.js"></script>
   </body>
 </html>
