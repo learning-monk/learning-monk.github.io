@@ -58,6 +58,7 @@ p {
   /* background-position: center; */
   color: white;
   margin-top: -10px;
+  height: auto;
 }
 
 .jumbotron {
