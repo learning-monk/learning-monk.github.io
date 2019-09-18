@@ -40,7 +40,7 @@
     <!-- navbar code starts here-->
     <nav class="navbar navbar-expand-md bg-info navbar-dark fixed-top">
       <!-- Brand -->
-      <a class="navbar-brand active" href="./index.html"><img src="./images/learning_monk_logo-resized.png">Learning monk</a>
+      <a class="navbar-brand active" href="./index.html">Learning monk</a>
       <!-- Toggler/collapsible button -->
       <button
         class="navbar-toggler"
@@ -81,143 +81,265 @@
     </nav>
     <!-- navbar code ends here -->
 
-    <!-- Adding Data Science projects container -->
-    <div class="container" id="DSProjects" style="margin-top: 80px">
-      <h4 class="datascienceprojects">Data Science projects</h4>
-      <hr class="mt-2 mb-5" />
-      <div class="row text-center">
-        <div class="col-3">
-          <a
-            href="https://github.com/learning-monk/DataScienceProjects/blob/master/Kaggle-World_Happiness.ipynb"
-            target="_blank"
-            ><img
-              class="img-fluid img-thumbnail"
-              src="./images/worldhappiness.JPG"
-              alt="WorldHappiness"
-          /></a>
-          <h6>Exploring World Happiness data</h6>
-          <p class="project-writeup">
-            What countries or regions rank the highest in overall happiness and
-            each of the six factors contributing to happiness?
-          </p>
-        </div>
-        <div class="col-3">
-          <a
-            href="https://github.com/learning-monk/DataScienceProjects/blob/master/Project-UK%20Road%20Safety.ipynb"
-            target="_blank"
-            ><img
-              class="img-fluid img-thumbnail"
-              src="./images/roadsafety.JPG"
-              alt="RoadSafety"
-          /></a>
-          <h6>Exploring UK-Road Safety data</h6>
-          <p class="project-writeup">
-            Set up 20 digital advertising boards with some key attributes to
-            road safety at areas with most impact.
-          </p>
-        </div>
-        <div class="col-3">
-          <a
-            href="https://github.com/learning-monk/DataScienceProjects/blob/master/Project-HRLeavers.ipynb"
-            target="_blank"
-            ><img
-              class="img-fluid img-thumbnail"
-              src="./images/employeeattrition.JPG"
-              alt="HRLeavers"
-          /></a>
-          <h6>Exploring HR Leavers dataset</h6>
-          <p class="project-writeup">
-            Understand the reasons behind employee attrition.
-          </p>
-        </div>
-        <div class="col-3">
-          <a
-            href="https://github.com/learning-monk/DataScienceProjects/blob/master/Pima_Indian_Diabetes_R.ipynb"
-            target="_blank"
-            ><img
-              class="img-fluid img-thumbnail"
-              src="./images/diabetes_resize.JPG"
-              alt="pima-indian-diabetes"
-          /></a>
-          <h6>Exploring Pima Indian Diabetes dataset</h6>
-          <p class="project-writeup">
-            Based on diagnostic measurements, predict whether a patient has
-            diabetes.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- Web Development Projects Container -->
-    <div class="container" id="webDevProjects" style="margin-top: 80px">
-      <h4 class="WebDevelopmentprojects">Web Development projects</h4>
-      <hr class="mt-2 mb-5" />
-      <div class="row text-center">
-        <div class="col-3">
-          <div class="content">
-            <a
-              href="https://github.com/learning-monk/FCC-ResponsiveWebDesignProjects/tree/master/FCC-Build_A_Tribute_Page"
+    <!-- Data Science projects container -->
+    <div class="DSProjects">
+      <div class="container" style="margin-top: 60px">
+        <h4 class="DataScienceprojects">Data Science projects</h4>
+        <hr class="mt-2 mb-5" />
+        <div class="card-deck">
+          <div class="card">
+            <div class="card-header">
+              <img
+                class="card-img-top img-fluid"
+                src="./images/worldhappiness.JPG"
+                alt="WorldHappiness"
+              />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Exploring World Happiness data</h6>
+              <p class="card-text">
+                What countries or regions rank the highest in overall happiness and each
+                of the six factors contributing to happiness?
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+              class="btn btn-primary stretched-link"
+              href="https://github.com/learning-monk/DataScienceProjects/blob/master/Kaggle-World_Happiness.ipynb"
               target="_blank"
-              ><img
-                class="img-fluid img-thumbnail"
-                src="./images/GertrudeElionResized.JPG"
-                alt="TributePage"
-            /></a>
-            <h6>FCC Project - A Tribute Page</h6>
-            <p class="project-writeup">
-              This project is part of freeCodeCamp curriculum. It is tribute
-              page on Gertrude Ellion who is a Nobel prize winner in Medicine in
-              1988.
-            </p>
+              >Go to project</a>
+            </div>             
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img
+                class="card-img-top img-fluid"
+                src="./images/roadsafety.JPG"
+                alt="RoadSafety"
+              />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Exploring UK-Road Safety data</h6>
+              <p class="card-text">
+                Set up 20 digital advertising boards with some key attributes to road
+                safety at areas with most impact.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+              class="btn btn-primary stretched-link"
+              href="https://github.com/learning-monk/DataScienceProjects/blob/master/Project-UK%20Road%20Safety.ipynb"
+              target="_blank"
+              >Go to project</a>
+            </div>             
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img
+                class="card-img-top img-fluid"
+                src="./images/employeeattrition.JPG"
+                alt="HRLeavers"
+              />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Exploring HR Leavers dataset</h6>
+              <p class="card-text">
+                Understand the reasons behind employee attrition.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+              class="btn btn-primary stretched-link"
+              href="https://github.com/learning-monk/DataScienceProjects/blob/master/Project-HRLeavers.ipynb"
+              target="_blank"
+              >Go to project</a>
+            </div>             
+          </div>  
+          <div class="card">
+            <div class="card-header">
+              <img
+                class="card-img-top img-fluid"
+                src="./images/diabetes_resize.JPG"
+                alt="pima-indian-diabetes"
+              />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">Exploring Pima Indian Diabetes dataset</h6>
+              <p class="card-text">
+                Based on diagnostic measurements, predict whether a patient has
+                diabetes.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+              class="btn btn-primary stretched-link"
+              href="https://github.com/learning-monk/DataScienceProjects/blob/master/Pima_Indian_Diabetes_R.ipynb"
+              target="_blank"
+              >Go to project</a>
+            </div>             
           </div>
         </div>
-        <div class="col-3">
-          <a
-            href="https://github.com/learning-monk/FCC-ResponsiveWebDesignProjects/tree/master/FCC-Build_A_Technical_Documentation_Page"
-            target="_blank"
-            ><img
-              class="img-fluid img-thumbnail"
-              src="./images/scalalogoResized.JPG"
-              alt="TechnicalDocumentation"
-          /></a>
-          <h6>FCC Project - A Technical Documentation Page</h6>
-          <p class="project-writeup">
-            This project is part of freeCodeCamp curriculum. It has part of
-            technical documentation of Scala.
-          </p>
+      </div>
+    </div>
+
+    <!-- Data Science projects container end -->
+
+    <!-- Web Development Projects Container -->
+    <div class="webDevProjects">
+        <div class="container" style="margin-top: 60px">
+          <h4 class="WebDevelopmentprojects">Web Development projects</h4>
+          <hr class="mt-2 mb-5" />
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-header">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./images/GertrudeElionResized.JPG"
+                  alt="TributePage"
+                />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">FCC Project - A Tribute Page</h6>
+                <p class="card-text">
+                  This project is part of freeCodeCamp curriculum. It is tribute page on
+                  Gertrude Ellion who is a Nobel prize winner in Medicine in 1988.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                class="btn btn-primary stretched-link"
+                href="https://github.com/learning-monk/FCC-ResponsiveWebDesignProjects/tree/master/FCC-Build_A_Tribute_Page""
+                target="_blank"
+                >Go to project</a>
+              </div>             
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./images/scalalogoResized.JPG"
+                  alt="TechnicalDocumentation"
+                />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">FCC Project - A Technical Documentation Page</h6>
+                <p class="card-text">
+                  This project is part of freeCodeCamp curriculum. It has part of
+                  technical documentation of Scala.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                class="btn btn-primary stretched-link"
+                href="https://github.com/learning-monk/FCC-ResponsiveWebDesignProjects/tree/master/FCC-Build_A_Technical_Documentation_Page"
+                target="_blank"
+                >Go to project</a>
+              </div>             
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./images/productpage.JPG"
+                  alt="ProductPage"
+                />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">FCC-A Product Landing Page</h6>
+                <p class="card-text">
+                  This project is part of freeCodeCamp curriculum. A product landing page
+                  of a fictitious company.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                class="btn btn-primary stretched-link"
+                href="https://github.com/learning-monk/FCC-ResponsiveWebDesignProjects/tree/master/FCC-Build_A_Product_Landing_Page"
+                target="_blank"
+                >Go to project</a>
+              </div>             
+            </div>  
+            <div class="card">
+              <div class="card-header">
+                <img
+                  class="card-img-top img-fluid"
+                  src="./images/surveyform_resized.JPG"
+                  alt="SurveyForm"
+                />
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">FCC - A Survey Form Template</h6>
+                <p class="card-text">
+                  This project is part of freeCodeCamp curriculum. A survey form template.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                class="btn btn-primary stretched-link"
+                href="https://github.com/learning-monk/FCC-ResponsiveWebDesignProjects/tree/master/FCC-Build_A_Survey_Form"
+                target="_blank"
+                >Go to project</a>
+              </div>             
+            </div>
+          </div>
         </div>
-        <div class="col-3">
-          <a
-            href="https://github.com/learning-monk/FCC-ResponsiveWebDesignProjects/tree/master/FCC-Build_A_Product_Landing_Page"
-            target="_blank"
-            ><img
-              class="img-fluid img-thumbnail"
-              src="./images/productpage.JPG"
-              alt="ProductPage"
-          /></a>
-          <h6>FCC-A Product Landing Page</h6>
-          <p class="project-writeup">
-            This project is part of freeCodeCamp curriculum. A product landing
-            page of a fictitious company.
-          </p>
-        </div>
-        <div class="col-3">
-          <a
-            href="https://github.com/learning-monk/FCC-ResponsiveWebDesignProjects/tree/master/FCC-Build_A_Survey_Form"
-            target="_blank"
-            ><img
-              class="img-fluid img-thumbnail"
-              src="./images/surveyform_resized.JPG"
-              alt="SurveyForm"
-          /></a>
-          <h6>FCC - A Survey Form Template</h6>
-          <p class="project-writeup">
-            This project is part of freeCodeCamp curriculum. A survey form
-            template.
-          </p>
+      </div>
+    <!-- Web Development Projects Container end-->
+
+    <!-- Data Visualization Projects Container -->
+    <div class="dataVizProjects">
+      <div class="container" style="margin-top: 60px">
+        <h4 class="DataVisualizationprojects">Data Visualization projects</h4>
+        <hr class="mt-2 mb-5" />
+        <div class="card-deck">
+          <div class="card">
+            <div class="card-header">
+              <img
+                class="card-img-top img-fluid"
+                src="./images/FCC-scatterplot.JPG"
+                alt="scatterplot"
+              />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">FCC Project - Scatter plot with D3.js</h6>
+              <p class="card-text">
+                This project is part of freeCodeCamp curriculum. It is built using D3.js (a javascript library for data visualization). This scatter plot shows doping in professional cycling.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+              class="btn btn-primary stretched-link"
+              href="https://codepen.io/ksp585/full/MWgXOKe"
+              target="_blank"
+              >Go to project</a>
+            </div>             
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img
+                class="card-img-top img-fluid"
+                src="./images/FCC-barplot.JPG"
+                alt="barplot"
+              />
+            </div>
+            <div class="card-body">
+              <h6 class="card-title">FCC Project - Bar plot with D3.js</h6>
+              <p class="card-text">
+                This project is part of freeCodeCamp curriculum. It is built using D3.js. This bar plot shows United States GDP by year.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+              class="btn btn-primary stretched-link"
+              href="https://codepen.io/ksp585/full/xxKzPwX"
+              target="_blank"
+              >Go to project</a>
+            </div>             
+          </div>
         </div>
       </div>
     </div>
-    <!-- Web Development Projects Container end-->
+    <!-- Data Visualization Projects Container end-->    
 
     <!-- footer code starts here -->
     <footer class="footer">
@@ -274,7 +396,7 @@
     <!-- copyright code -->
     <div class="copyright">
       <div class="container">
-        <div class="row text-center">
+        <div class="row justify-content-center align-items-center">
           <p>© 2019 learning-monk.github.io</p>
         </div>
       </div>

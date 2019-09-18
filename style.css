@@ -57,7 +57,7 @@ p {
   background-size: cover;
   /* background-position: center; */
   color: white;
-  margin-top: -10px;
+  margin-top: 0px;
   height: auto;
 }
 
@@ -93,7 +93,7 @@ p {
 
 /* This prevents collapsible navbar to hide content below */
 body {
-  padding-top: 100px;
+  padding-top: 75px;
 
   /* this clips the overflowing elements which cause horizontal scroll */
   overflow-x: hidden;
@@ -116,6 +116,15 @@ body {
   height: 270px;
   width: 800px;
 } */
+
+/* portfolio cards */
+.card-img {
+  width: 100%;
+}
+.card-title {
+  color: #f97300;
+}
+/* portfolio code end */
 
 .contact-form {
   margin: 6em 0;
