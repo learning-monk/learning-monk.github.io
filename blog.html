@@ -3,9 +3,148 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My resume</title>
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!-- font awesome library for social media footer icons -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- my css code -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>This blog is under construction</h1>
+    <!-- navbar code starts here-->
+    <nav class="navbar navbar-expand-md bg-info navbar-dark fixed-top">
+      <!-- Brand -->
+      <a class="navbar-brand active" href="./index.html">Learning monk</a>
+      <!-- Toggler/collapsible button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- navbar links -->
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="collapsibleNavbar"
+      >
+        <ul class="navbar-nav nav-fill ml-auto">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link text-white">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="./portfolio.html" class="nav-link text-white">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="./blog.html" class="nav-link text-white">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="./resume.html" class="nav-link text-white page-on">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link text-white">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar code ends here -->
+
+    <!-- My resume infographic -->
+    <div class="jumbotron">
+      <h1>This blog is under construction</h1>
+    </div>
+
+    <!-- footer code starts here -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row text-center">
+          <!-- contact email -->
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <p>
+              <i class="fa fa-envelope fa-lg"></i
+              ><a
+                class="mx-2 font-bold"
+                style="color: white; font-size: 16px; font-family:Verdana, Geneva, Tahoma, sans-serif""
+                href="mailto:learningmonk888@gmail.com"
+              >
+                learningmonk888@gmail.com</a
+              >
+            </p>
+          </div>
+          <!-- contact email end -->
+
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <a
+              class="btn btn-social-icon btn-linkedin"
+              href="https://in.linkedin.com/in/pratibha-ks-7194284b"
+              target="_blank"
+              data-toggle="tooltip"
+              title="Linkedin"
+              ><i class="fa fa-linkedin fa-lg"></i
+            ></a>
+
+            <a
+              class="btn btn-social-icon btn-github"
+              href="https://github.com/learning-monk"
+              target="_blank"
+              data-toggle="tooltip"
+              title="Github"
+              ><i class="fa fa-github fa-lg"></i
+            ></a>
+
+            <a
+              class="btn btn-social-icon btn-stack-overflow"
+              href="https://stackoverflow.com/users/3668839/ksp585"
+              target="_blank"
+              data-toggle="tooltip"
+              title="Stackoverflow"
+              ><i class="fa fa-stack-overflow fa-lg"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer code ends here -->
+
+    <!-- copyright code -->
+    <div class="copyright">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <p>© 2020 learning-monk.github.io</p>
+        </div>
+      </div>
+    </div>
+    <!-- copyright code end -->
+    <script src="main.js"></script>
   </body>
 </html>
