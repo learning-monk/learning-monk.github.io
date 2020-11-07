@@ -1,4 +1,4 @@
-This is my portfolio website built with HTML, CSS and Bootstrap4 and hosted using githubPages.
+This is my portfolio website built with HTML, CSS and Bootstrap4 and hosted using github-pages.
 
 I built this site to showcase my work and share my knowledge.
 
